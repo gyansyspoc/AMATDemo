@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00827F9D1DD06CDA00BEAE13 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00827F9C1DD06CDA00BEAE13 /* BrowserViewController.swift */; };
 		00827F9F1DD07DAE00BEAE13 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00827F9E1DD07DAE00BEAE13 /* GlobalData.swift */; };
+		0087264D1DD605E8002F6DC9 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087264C1DD605E8002F6DC9 /* BrowserViewController.swift */; };
 		B6C5748E1BAC6BE33FDDF41B /* Pods_AMATDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028FE20A87F5209B654E3A8A /* Pods_AMATDemo.framework */; };
 		F4973AB11A21DD6D00E2F44E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4973AB01A21DD6D00E2F44E /* AppDelegate.swift */; };
 		F4973AB31A21DD6D00E2F44E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4973AB21A21DD6D00E2F44E /* ScannerViewController.swift */; };
@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		00436656E7C547ADEFB3C8E4 /* Pods-AMATDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMATDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMATDemo/Pods-AMATDemo.release.xcconfig"; sourceTree = "<group>"; };
-		00827F9C1DD06CDA00BEAE13 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrowserViewController.swift; path = ../BrowserViewController.swift; sourceTree = "<group>"; };
 		00827F9E1DD07DAE00BEAE13 /* GlobalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		0087264C1DD605E8002F6DC9 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		028FE20A87F5209B654E3A8A /* Pods_AMATDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMATDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFE0A09C9C46C6BDB1DD263 /* Pods-AMATDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMATDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMATDemo/Pods-AMATDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F4973AAB1A21DD6D00E2F44E /* AMATDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMATDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,7 @@
 		F4973AAD1A21DD6D00E2F44E /* AMATDemo */ = {
 			isa = PBXGroup;
 			children = (
-				00827F9C1DD06CDA00BEAE13 /* BrowserViewController.swift */,
+				0087264C1DD605E8002F6DC9 /* BrowserViewController.swift */,
 				F4973AB01A21DD6D00E2F44E /* AppDelegate.swift */,
 				F4973AB21A21DD6D00E2F44E /* ScannerViewController.swift */,
 				F4973AB41A21DD6D00E2F44E /* Main.storyboard */,
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4973AB31A21DD6D00E2F44E /* ScannerViewController.swift in Sources */,
-				00827F9D1DD06CDA00BEAE13 /* BrowserViewController.swift in Sources */,
+				0087264D1DD605E8002F6DC9 /* BrowserViewController.swift in Sources */,
 				00827F9F1DD07DAE00BEAE13 /* GlobalData.swift in Sources */,
 				F4973AB11A21DD6D00E2F44E /* AppDelegate.swift in Sources */,
 			);
