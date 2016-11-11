@@ -1,0 +1,12 @@
+PODS:
+  - SwiftyButton (0.6.0)
+
+DEPENDENCIES:
+  - SwiftyButton
+
+SPEC CHECKSUMS:
+  SwiftyButton: 4c9b61c499f172971a1b8c2eebbbdc20a26d8a08
+
+PODFILE CHECKSUM: 7bde432f159ed84b91660e668508e4af7b9c5f1d
+
+COCOAPODS: 1.1.1

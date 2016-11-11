@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00827F9D1DD06CDA00BEAE13 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00827F9C1DD06CDA00BEAE13 /* BrowserViewController.swift */; };
+		00827F9F1DD07DAE00BEAE13 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00827F9E1DD07DAE00BEAE13 /* GlobalData.swift */; };
+		B6C5748E1BAC6BE33FDDF41B /* Pods_AMATDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028FE20A87F5209B654E3A8A /* Pods_AMATDemo.framework */; };
+		F4973AB11A21DD6D00E2F44E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4973AB01A21DD6D00E2F44E /* AppDelegate.swift */; };
+		F4973AB31A21DD6D00E2F44E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4973AB21A21DD6D00E2F44E /* ScannerViewController.swift */; };
+		F4973AB61A21DD6D00E2F44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4973AB41A21DD6D00E2F44E /* Main.storyboard */; };
+		F4973AB81A21DD6D00E2F44E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4973AB71A21DD6D00E2F44E /* Images.xcassets */; };
+		F4973AC71A21DD6E00E2F44E /* AMATDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4973AC61A21DD6E00E2F44E /* AMATDemo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4973AC11A21DD6E00E2F44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4973AA31A21DD6D00E2F44E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4973AAA1A21DD6D00E2F44E;
+			remoteInfo = QRReaderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00436656E7C547ADEFB3C8E4 /* Pods-AMATDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMATDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMATDemo/Pods-AMATDemo.release.xcconfig"; sourceTree = "<group>"; };
+		00827F9C1DD06CDA00BEAE13 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrowserViewController.swift; path = ../BrowserViewController.swift; sourceTree = "<group>"; };
+		00827F9E1DD07DAE00BEAE13 /* GlobalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		028FE20A87F5209B654E3A8A /* Pods_AMATDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMATDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFE0A09C9C46C6BDB1DD263 /* Pods-AMATDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMATDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMATDemo/Pods-AMATDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F4973AAB1A21DD6D00E2F44E /* AMATDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMATDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4973AAF1A21DD6D00E2F44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4973AB01A21DD6D00E2F44E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4973AB21A21DD6D00E2F44E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		F4973AB51A21DD6D00E2F44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4973AB71A21DD6D00E2F44E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4973AC01A21DD6E00E2F44E /* AMATDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMATDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4973AC51A21DD6E00E2F44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4973AC61A21DD6E00E2F44E /* AMATDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMATDemo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4973AA81A21DD6D00E2F44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C5748E1BAC6BE33FDDF41B /* Pods_AMATDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4973ABD1A21DD6E00E2F44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD24B0E6F322356003C3717 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE0A09C9C46C6BDB1DD263 /* Pods-AMATDemo.debug.xcconfig */,
+				00436656E7C547ADEFB3C8E4 /* Pods-AMATDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FA4E855436B787EDAD8738D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				028FE20A87F5209B654E3A8A /* Pods_AMATDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4973AA21A21DD6D00E2F44E = {
+			isa = PBXGroup;
+			children = (
+				F4973AAD1A21DD6D00E2F44E /* AMATDemo */,
+				F4973AC31A21DD6E00E2F44E /* AMATDemoTests */,
+				F4973AAC1A21DD6D00E2F44E /* Products */,
+				0DD24B0E6F322356003C3717 /* Pods */,
+				9FA4E855436B787EDAD8738D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4973AAC1A21DD6D00E2F44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4973AAB1A21DD6D00E2F44E /* AMATDemo.app */,
+				F4973AC01A21DD6E00E2F44E /* AMATDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4973AAD1A21DD6D00E2F44E /* AMATDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00827F9C1DD06CDA00BEAE13 /* BrowserViewController.swift */,
+				F4973AB01A21DD6D00E2F44E /* AppDelegate.swift */,
+				F4973AB21A21DD6D00E2F44E /* ScannerViewController.swift */,
+				F4973AB41A21DD6D00E2F44E /* Main.storyboard */,
+				F4973AB71A21DD6D00E2F44E /* Images.xcassets */,
+				F4973AAE1A21DD6D00E2F44E /* Supporting Files */,
+				00827F9E1DD07DAE00BEAE13 /* GlobalData.swift */,
+			);
+			path = AMATDemo;
+			sourceTree = "<group>";
+		};
+		F4973AAE1A21DD6D00E2F44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4973AAF1A21DD6D00E2F44E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4973AC31A21DD6E00E2F44E /* AMATDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4973AC61A21DD6E00E2F44E /* AMATDemo.swift */,
+				F4973AC41A21DD6E00E2F44E /* Supporting Files */,
+			);
+			name = AMATDemoTests;
+			path = QRReaderDemoTests;
+			sourceTree = "<group>";
+		};
+		F4973AC41A21DD6E00E2F44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4973AC51A21DD6E00E2F44E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4973AAA1A21DD6D00E2F44E /* AMATDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4973ACA1A21DD6E00E2F44E /* Build configuration list for PBXNativeTarget "AMATDemo" */;
+			buildPhases = (
+				E06B57CD244B8B4216973D11 /* [CP] Check Pods Manifest.lock */,
+				F4973AA71A21DD6D00E2F44E /* Sources */,
+				F4973AA81A21DD6D00E2F44E /* Frameworks */,
+				F4973AA91A21DD6D00E2F44E /* Resources */,
+				C166FD794B81880C2575F292 /* [CP] Embed Pods Frameworks */,
+				56FB3D0CED6C55959CE3C190 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMATDemo;
+			productName = QRReaderDemo;
+			productReference = F4973AAB1A21DD6D00E2F44E /* AMATDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4973ABF1A21DD6E00E2F44E /* AMATDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4973ACD1A21DD6E00E2F44E /* Build configuration list for PBXNativeTarget "AMATDemoTests" */;
+			buildPhases = (
+				F4973ABC1A21DD6E00E2F44E /* Sources */,
+				F4973ABD1A21DD6E00E2F44E /* Frameworks */,
+				F4973ABE1A21DD6E00E2F44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4973AC21A21DD6E00E2F44E /* PBXTargetDependency */,
+			);
+			name = AMATDemoTests;
+			productName = QRReaderDemoTests;
+			productReference = F4973AC01A21DD6E00E2F44E /* AMATDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4973AA31A21DD6D00E2F44E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F4973AAA1A21DD6D00E2F44E = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3432BU5T9K;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					F4973ABF1A21DD6E00E2F44E = {
+						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = F4973AAA1A21DD6D00E2F44E;
+					};
+				};
+			};
+			buildConfigurationList = F4973AA61A21DD6D00E2F44E /* Build configuration list for PBXProject "AMATDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4973AA21A21DD6D00E2F44E;
+			productRefGroup = F4973AAC1A21DD6D00E2F44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4973AAA1A21DD6D00E2F44E /* AMATDemo */,
+				F4973ABF1A21DD6E00E2F44E /* AMATDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4973AA91A21DD6D00E2F44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4973AB61A21DD6D00E2F44E /* Main.storyboard in Resources */,
+				F4973AB81A21DD6D00E2F44E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4973ABE1A21DD6E00E2F44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56FB3D0CED6C55959CE3C190 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMATDemo/Pods-AMATDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C166FD794B81880C2575F292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMATDemo/Pods-AMATDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06B57CD244B8B4216973D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4973AA71A21DD6D00E2F44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4973AB31A21DD6D00E2F44E /* ScannerViewController.swift in Sources */,
+				00827F9D1DD06CDA00BEAE13 /* BrowserViewController.swift in Sources */,
+				00827F9F1DD07DAE00BEAE13 /* GlobalData.swift in Sources */,
+				F4973AB11A21DD6D00E2F44E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4973ABC1A21DD6E00E2F44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4973AC71A21DD6E00E2F44E /* AMATDemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4973AC21A21DD6E00E2F44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4973AAA1A21DD6D00E2F44E /* AMATDemo */;
+			targetProxy = F4973AC11A21DD6E00E2F44E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4973AB41A21DD6D00E2F44E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4973AB51A21DD6D00E2F44E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4973AC81A21DD6E00E2F44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4973AC91A21DD6E00E2F44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4973ACB1A21DD6E00E2F44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFE0A09C9C46C6BDB1DD263 /* Pods-AMATDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3432BU5T9K;
+				INFOPLIST_FILE = AMATDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AMATDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4973ACC1A21DD6E00E2F44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00436656E7C547ADEFB3C8E4 /* Pods-AMATDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3432BU5T9K;
+				INFOPLIST_FILE = AMATDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AMATDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4973ACE1A21DD6E00E2F44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QRReaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMATDemo.app/AMATDemo";
+			};
+			name = Debug;
+		};
+		F4973ACF1A21DD6E00E2F44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QRReaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMATDemo.app/AMATDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4973AA61A21DD6D00E2F44E /* Build configuration list for PBXProject "AMATDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4973AC81A21DD6E00E2F44E /* Debug */,
+				F4973AC91A21DD6E00E2F44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4973ACA1A21DD6E00E2F44E /* Build configuration list for PBXNativeTarget "AMATDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4973ACB1A21DD6E00E2F44E /* Debug */,
+				F4973ACC1A21DD6E00E2F44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4973ACD1A21DD6E00E2F44E /* Build configuration list for PBXNativeTarget "AMATDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4973ACE1A21DD6E00E2F44E /* Debug */,
+				F4973ACF1A21DD6E00E2F44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4973AA31A21DD6D00E2F44E /* Project object */;
+}
