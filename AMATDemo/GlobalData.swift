@@ -5,8 +5,8 @@
 
 import Foundation
 
-let hostName = "http://35.163.16.217"
-let deepLinkUrl = "deeplink://http//35.163.16.217"
+let hostName = "http://35.162.171.46"
+let deepLinkUrl = "deeplink://http//35.162.171.46"
 
 struct locationData {
     static var url=""
