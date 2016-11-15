@@ -37,18 +37,15 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
             let barCodeObject = videoPreviewLayer?.transformedMetadataObject(for: metadataObj)
             qrCodeFrameView?.frame = barCodeObject!.bounds
             if metadataObj!.stringValue != nil {
-                //Changing value of it
                 if metadataObj!.stringValue.contains(hostName){
                     captureSession?.stopRunning()
                     performSegue(withIdentifier: "navigateToWeb", sender: nil)
-                    
                 }
                 else{
                     let alert = UIAlertController(title: "Error message", message: "No Pass available for this Code", preferredStyle: UIAlertControllerStyle.alert)
                     alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 }
-                
             }
         }
     }
@@ -56,7 +53,6 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     func startQRCode(){
         
         let captureDevice = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
-        
         do {
             // Get an instance of the AVCaptureDeviceInput class using the previous device object.
             let input = try AVCaptureDeviceInput(device: captureDevice)
@@ -101,7 +97,6 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
             let browserViewController = segue.destination as! BrowserViewController
             browserViewController.urlString = metadataObj!.stringValue
         }
-        
     }
 }
 
